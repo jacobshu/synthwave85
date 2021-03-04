@@ -125,50 +125,51 @@ let s:gb = copy(g:synthwave_colors)
 let g:current_synthwave_colors = s:gb
 
 " set palette default colors
-call s:Color('dark0_hard',  ['#1d1825', 234])     " 29-32-33
-call s:Color('dark0',       ['#2b223a', 235])     " 40-40-40
-call s:Color('dark0_soft',  ['#392d4d', 236])     " 50-48-47
-call s:Color('dark1',       ['#403258', 237])     " 60-56-54
-call s:Color('dark2',       ['#463460', 239])     " 80-73-69
-call s:Color('dark3',       ['#51376c', 241])     " 102-92-84
-call s:Color('dark4',       ['#5c3b78', 243])     " 124-111-100
-call s:Color('dark4_256',   ['#5c3b78', 243])     " 124-111-100
+call s:Color('dark0_hard',  ['#191b26', 234])
+call s:Color('dark0',       ['#282a36', 235])
+call s:Color('dark0_soft',  ['#383a46', 236])
+call s:Color('dark1',       ['#484a57', 237])
+call s:Color('dark2',       ['#595b68', 239])
+call s:Color('dark3',       ['#6b6d7a', 241])
+call s:Color('dark4',       ['#7d7f8c', 243])
+call s:Color('dark4_256',   ['#7d7f8c', 243])
 
-call s:Color('gray_245',    ['#613e79', 245])     " 146-131-116
-call s:Color('gray_244',    ['#613e79', 244])     " 146-131-116
+call s:Color('gray_245',    ['#90929f', 245])
+call s:Color('gray_244',    ['#90929f', 244])
 
-call s:Color('light0_hard', ['#f3d8f8', 230])     " 249-245-215
-call s:Color('light0',      ['#efc8f9', 229])     " 253-244-193
-call s:Color('light0_soft', ['#e3beef', 228])     " 242-229-188
-call s:Color('light1',      ['#dcb2eb', 223])     " 235-219-178
-call s:Color('light2',      ['#c5a0d4', 250])     " 213-196-161
-call s:Color('light3',      ['#b28bc6', 248])     " 189-174-147
-call s:Color('light4',      ['#704785', 246])     " 168-153-132
-call s:Color('light4_256',  ['#704785', 246])     " 168-153-132
+call s:Color('light0_hard', ['#ffffff', 230])
+call s:Color('light0',      ['#f9f9ff', 229])
+call s:Color('light0_soft', ['#e4e4ea', 228])
+call s:Color('light1',      ['#d0d0d6', 223])
+call s:Color('light2',      ['#bcbcc2', 250])
+call s:Color('light3',      ['#a8a8ae', 248])
+call s:Color('light4',      ['#95959b', 246])
+call s:Color('light4_256',  ['#95959b', 246])
 
-call s:Color('bright_red',     ['#f6b1a2', 167])     " 251-73-52
-call s:Color('bright_green',   ['#9af00f', 142])     " 184-187-38
-call s:Color('bright_yellow',  ['#fefe43', 214])     " 250-189-47
-call s:Color('bright_blue',    ['#4feff8', 109])     " 131-165-152
-call s:Color('bright_purple',  ['#fb23c1', 175])     " 211-134-155
-call s:Color('bright_aqua',    ['#3ffdae', 108])     " 142-192-124
-call s:Color('bright_orange',  ['#ff9e42', 208])     " 254-128-25
+call s:Color('bright_red',     ['#ff8a7f', 167])
+call s:Color('neutral_red',    ['#ff5c57', 124])
+call s:Color('faded_red',      ['#cb2a31', 88])
+call s:Color('bright_green',   ['#8effba', 142])
+call s:Color('neutral_green',  ['#5af78e', 106])
+call s:Color('faded_green',    ['#0cc864', 100])
+call s:Color('bright_yellow',  ['#ffffca', 214])
+call s:Color('neutral_yellow', ['#f3f99d', 172])
+call s:Color('faded_yellow',   ['#c4cb72', 136])
+call s:Color('bright_blue',    ['#8cf5ff', 109])
+call s:Color('neutral_blue',   ['#57c7ff', 66])
+call s:Color('faded_blue',     ['#009bd1', 24])
+call s:Color('bright_orange',  ['#ffd892', 208])
+call s:Color('neutral_orange', ['#fdab68', 166])
+call s:Color('faded_orange',   ['#cc803f', 130])
+call s:Color('bright_purple',  ['#ff98ef', 175])
+call s:Color('neutral_purple', ['#ff6ac1', 132])
+call s:Color('faded_purple',   ['#ce3a95', 96])
+call s:Color('bright_aqua',    ['#c9ffff', 108])
+call s:Color('neutral_aqua',   ['#9aedfe', 72])
+call s:Color('faded_aqua',     ['#6cbfd0', 65])
 
-call s:Color('neutral_red',    ['#ea8171', 124])     " 204-36-29
-call s:Color('neutral_green',  ['#88c021', 106])     " 152-151-26
-call s:Color('neutral_yellow', ['#ede431', 172])     " 215-153-33
-call s:Color('neutral_blue',   ['#0db9f2', 66])      " 69-133-136
-call s:Color('neutral_purple', ['#cd1daa', 132])     " 177-98-134
-call s:Color('neutral_aqua',   ['#14f0b9', 72])      " 104-157-106
-call s:Color('neutral_orange', ['#f88016', 166])     " 214-93-14
 
-call s:Color('faded_red',      ['#f05142', 88])      " 157-0-6
-call s:Color('faded_green',    ['#71a013', 100])     " 121-116-14
-call s:Color('faded_yellow',   ['#e0c124', 136])     " 181-118-20
-call s:Color('faded_blue',     ['#0a69a9', 24])      " 7-102-120
-call s:Color('faded_purple',   ['#9e0089', 96])      " 143-63-113
-call s:Color('faded_aqua',     ['#00bdad', 65])      " 66-123-88
-call s:Color('faded_orange',   ['#d15b00', 130])     " 175-58-3
+
 
 " }}}
 " Setup Emphasis: {{{
@@ -667,7 +668,7 @@ else
 endif
 
 " call s:HL('Comment', s:gb.gray, s:none, s:italicize_comments)
-call s:HL('Comment', s:fg3, s:none, s:italicize_comments)
+call s:HL('Comment', s:fg4, s:none, s:italicize_comments)
 call s:HL('Todo', s:vim_fg, s:none, s:bold . s:italic)
 call s:HL('Error', s:gb.red, s:none, s:bold . s:inverse)
 
@@ -1239,6 +1240,25 @@ hi! link javaScriptMember SynthwaveBlue
 hi! link javaScriptNumber SynthwavePurple
 hi! link javaScriptNull SynthwavePurple
 hi! link javaScriptParens SynthwaveFg3
+
+" }}}
+" PanglossJS: {{{
+
+hi! link jsClassKeyword GruvboxAqua
+hi! link jsExtendsKeyword GruvboxAqua
+hi! link jsExportDefault GruvboxAqua
+hi! link jsTemplateBraces GruvboxAqua
+hi! link jsGlobalNodeObjects GruvboxBlue
+hi! link jsGlobalObjects GruvboxBlue
+hi! link jsObjectKey GruvboxGreenBold
+hi! link jsFunction GruvboxAqua
+hi! link jsFuncCall GruvboxBlue
+hi! link jsFuncParens GruvboxFg3
+hi! link jsParens GruvboxFg3
+hi! link jsNull GruvboxPurple
+hi! link jsUndefined GruvboxPurple
+hi! link jsClassDefinition GruvboxYellow
+hi! link jsOperatorKeyword GruvboxRed
 
 " }}}
 " YAJS: {{{
