@@ -1,1 +1,2 @@
-# synthwave.vim
+# synthwave85
+
