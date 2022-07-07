@@ -5,83 +5,195 @@
  *  Source: https://github.com/jacobshu/synthwave85
  ********************************************************************************/
 
-export const sw85 = {
-  neutrals: {
-    dark: {
-      dark0_hard: '#191b26',
-      dark0: '#282a36',
-      dark0_soft: '#383a46',
-      dark1: '#484a57',
-      dark2: '#595b68',
-      dark3: '#6b6d7a',
-      dark4: '#7d7f8c',
-    },
-    gray: {
-      gray_244: '#90929f',
-    },
-    light: {
-      light0: '#f9f9ff',
-      light0_soft: '#e4e4ea',
-      light1: '#d0d0d6',
-      light2: '#bcbcc2',
-      light3: '#a8a8ae',
-      light4: '#95959b',
-      light4_256: '#95959b',
-      light0_hard: '#ffffff',
-    },
+export const colors = {
+  'vim-neutral': {
+    900: '#191B26',
+    800: '#2F3141',
+    700: '#484A5C',
+    600: '#646677',
+    500: '#7D7F8C',
+    400: '#95959B',
+    300: '#B6B6BC',
+    200: '#D7D7DE',
+    100: '#F9F9FF',
   },
-  bright: {
-    aqua: '#c9ffff',
-    blue: '#8cf5ff',
-    green: '#8effba',
-    orange: '#ffd892',
-    purple: '#ff98ef',
-    red: '#ff8a7f',
-    yellow: '#ffffca',
+  'vim-red': {
+    300: '#ff8a7f',
+    500: '#ff5c57',
+    700: '#cb2a31',
   },
-  neutral: {
-    aqua: '#9aedfe',
-    blue: '#57c7ff',
-    green: '#5af78e',
-    orange: '#fdab68',
-    purple: '#ff6ac1',
-    red: '#ff5c57',
-    yellow: '#f3f99d',
+  'vim-green': {
+    700: '#8effba',
+    500: '#5af78e',
+    300: '#0cc864',
   },
-  faded: {
-    aqua: '#6cbfd0',
-    blue: '#009bd1',
-    green: '#0cc864',
-    orange: '#cc803f',
-    purple: '#ce3a95',
-    red: '#cb2a31',
-    yellow: '#c4cb72',
+  'vim-yellow': {
+    700: '#ffffca',
+    500: '#f3f99d',
+    300: '#c4cb72',
   },
+  'vim-blue': {
+    700: '#8cf5ff',
+    500: '#57c7ff',
+    300: '#009bd1',
+  },
+  'vim-orange': {
+    700: '#ffd892',
+    500: '#fdab68',
+    300: '#cc803f',
+  },
+  'vim-magenta': {
+    700: '#ff98ef',
+    500: '#ff6ac1',
+    300: '#ce3a95',
+  },
+  'vim-cyan': {
+    700: '#c9ffff',
+    500: '#9aedfe',
+    300: '#6cbfd0',
+  },
+  'nord-neutral': {
+    900: '#242931',
+    800: '#2E3440',
+    700: '#3B4252',
+    600: '#434C5E',
+    500: '#4C566A',
+    400: '#D8DEE9',
+    300: '#E5E9F0',
+    200: '#ECEFF4',
+  },
+  'nord-blue': {
+    700: '#5E81AC',
+    600: '#81A1C1',
+    500: '#88C0D0',
+    400: '#8FBCBB',
+  },
+  'nord-red': {
+    700: '#BF616A',
+    600: '#D08770',
+    500: '#EBCB8B',
+    400: '#A3BE8C',
+    300: '#B48EAD',
+  },
+  'sw85-blue': {
+    200: '#C8FEFE',
+    300: '#98E9EF',
+    400: '#6DD0DF',
+    500: '#46B6D0',
+    600: '#2B9BC1',
+    700: '#1480B1',
+    800: '#0065A2'
+  },
+  'sw85-green': {
+    200: '#8EFFBA',
+    300: '#66EC9D',
+    400: '#43DA84',
+    500: '#34C777',
+    600: '#2DB16B',
+    700: '#279A5E',
+    800: '#20834E',
+  },
+  'sw85-magenta': {
+    200: '#FF98EF',
+    300: '#ED7BDA',
+    400: '#DB60C5',
+    500: '#CA49B0',
+    600: '#B2409A',
+    700: '#9B3684',
+    800: '#842D6E',
+  },
+  'sw85-yellow': {
+    200: '#FFFFCA',
+    300: '#F8F8B5',
+    400: '#F0F2A0',
+    500: '#E8EB8C',
+    600: '#E3E182',
+    700: '#DBD278',
+    800: '#D3C46F',
+  },
+  'sw85-orange': {
+    200: '#FFD892',
+    300: '#F7C578',
+    400: '#EEB360',
+    500: '#E59F49',
+    600: '#DD9240',
+    700: '#D58538',
+    800: '#CA7730',
+  },
+  'sw85-cyan': {
+    200: '#C9FFFF',
+    300: '#B3F0F1',
+    400: '#9FE0E4',
+    500: '#8CD0D6',
+    600: '#7ABFC8',
+    700: '#69AFBB',
+    800: '#5A9FAD',
+  },
+  'sw85-red': {
+    200: '#FF8A7F',
+    300: '#F6786F',
+    400: '#EE675F',
+    500: '#E55751',
+    600: '#DC4743',
+    700: '#D43836',
+    800: '#CB2A2A',
+  },
+  'sw85-bright': {
+    200: '#FF8A7F',
+    300: '#EEF66F',
+    400: '#5FEE65',
+    500: '#51E2E5',
+    600: '#4343DC',
+    700: '#D036D4',
+    800: '#CB2A2A',
+  },
+  'sw84-neutral': {
+    900: '#08080F',
+    800: '#11101F',
+    700: '#1C192F',
+    600: '#27213F',
+    500: '#34294F',
+    400: '#534E7B',
+    300: '#7D80A7',
+    200: '#B6BED3',
+    100: '#FAFCFF',
+  },
+  'sw84-green': {
+    700: '#206d4b',
+    600: '#09f7a0',
+    500: '#0beb99',
+    400: '#72f1b8',
+  },
+  'sw84-blue': {
+
+    700: '#03edf9',
+    500: '#2ee2fa',
+    400: '#36f9f6',
+  },
+  'sw84-magenta': {
+    1: '#495495',
+    2: '#463465',
+    3: '#463564',
+    4: '#614D85',
+    5: '#7059AB',
+    6: '#848bbd',
+    7: '#9d8bca',
+    8: '#b893ce',
+    9: '#A148AB',
+    10: '#ff7edb',
+    11: '#880088',
+  },
+  'sw84-red': {
+    500: '#fa2e46',
+    400: '#fe4450',
+  },
+  'sw84-yellow': {
+    500: '#fede5d',
+  },
+  'sw84-orange': {
+    500: '#D18616',
+    400: '#ff8b39',
+    300: '#f97e72',
+    200: '#D50',
+  }
 }
-
-// const nord = {
-// --nord-deep-dark: #242931;
-// /*  polar night */
-// --nord0: #2E3440;
-// --nord1: #3B4252;
-// --nord2: #434C5E;
-// --nord3: #4C566A;
-// /* snow storm */
-// --nord4: #D8DEE9;
-// --nord5: #E5E9F0;
-// --nord6: #ECEFF4;
-// /* frost */
-// --nord7: #8FBCBB;
-// --nord8: #88C0D0;
-// --nord9: #81A1C1;
-// --nord10: #5E81AC;
-// /* aurora */
-// --nord11: #BF616A;
-// --nord12: #D08770;
-// --nord13: #EBCB8B;
-// --nord14: #A3BE8C;
-// --nord15: #B48EAD;
-// }
-
-
-
