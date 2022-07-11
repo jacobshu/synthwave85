@@ -5,7 +5,7 @@
  *  Source: https://github.com/jacobshu/synthwave85
  ********************************************************************************/
 
-export const colors: {
+module.exports = {
   'white': '#f8fafc',
   'gray': '#1e293b',
   'vim-neutral': {
