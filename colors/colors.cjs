@@ -5,7 +5,9 @@
  *  Source: https://github.com/jacobshu/synthwave85
  ********************************************************************************/
 
-export const colors = {
+export const colors: {
+  'white': '#f8fafc',
+  'gray': '#1e293b',
   'vim-neutral': {
     900: '#191B26',
     800: '#2F3141',
