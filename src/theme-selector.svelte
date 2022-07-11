@@ -1,9 +1,10 @@
 <script>
-  import theme from '../colors/colors.cjs'
+  import colorPalette from '../colors/colors.js'
   let element = 'keyword'
-  let elements = [
-    {name: 'keyword', color: '', shade: 500}
+  let themes = [
+    {palette: '', name: 'keyword', color: '', shade: 500}
   ]
+  $: palette
   $: bgColor = theme[element][shade]
   $: shade = 500
 

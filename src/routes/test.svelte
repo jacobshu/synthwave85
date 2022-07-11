@@ -81,7 +81,9 @@
         class={method}>get</span><span class={container}>(</span><span class={type}>String</span> url<span
         class={keyword}>,</span> params<span class={container}>)</span> <span class={keyword}>async</span> <span
         class={container}>&#123;</span></p>
-      <p class={indent2}><span class={keyword}>if</span> (_port != null) iPort = int.tryParse(_port as String);</p>
+      <p class={indent2}><span class={keyword}>if</span> (_port <span class={keyword}>!= null</span>) iPort <span
+        class={keyword}>=</span> <span class={type}>int</span><span class={keyword}>.</span><span class={method}>tryParse</span>(_port <span class={keyword}>as</span> <span class={type}>String</span>)<span class={keyword}>;</span>
+      </p>
 
       <!--  dynamic responseJson;-->
       <!--  Uri uri = Uri(-->
