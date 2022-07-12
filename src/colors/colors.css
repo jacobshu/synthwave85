@@ -7,20 +7,20 @@
 
 :root {
     --vim-neutral-900: #191b26;
-    --vim-neutral-: #282a36;
-    --vim-neutral-: #383a46;
-    --vim-neutral-: #484a57;
-    --vim-neutral-: #595b68;
-    --vim-neutral-: #6b6d7a;
-    --vim-neutral-: #7d7f8c;
-    --vim-neutral-: #90929f;
-    --vim-neutral-: #95959b;
-    --vim-neutral-: #a8a8ae;
-    --vim-neutral-: #bcbcc2;
-    --vim-neutral-: #d0d0d6;
-    --vim-neutral-: #f9f9ff;
-    --vim-neutral-: #e4e4ea;
-    --vim-neutral-: #ffffff;
+    /*--vim-neutral-: #282a36;*/
+    /*--vim-neutral-: #383a46;*/
+    /*--vim-neutral-: #484a57;*/
+    /*--vim-neutral-: #595b68;*/
+    /*--vim-neutral-: #6b6d7a;*/
+    /*--vim-neutral-: #7d7f8c;*/
+    /*--vim-neutral-: #90929f;*/
+    /*--vim-neutral-: #95959b;*/
+    /*--vim-neutral-: #a8a8ae;*/
+    /*--vim-neutral-: #bcbcc2;*/
+    /*--vim-neutral-: #d0d0d6;*/
+    /*--vim-neutral-: #f9f9ff;*/
+    /*--vim-neutral-: #e4e4ea;*/
+    /*--vim-neutral-: #ffffff;*/
 
     --bright_red: #ff8a7f;
     --neutral_red: #ff5c57;
@@ -128,44 +128,44 @@
     --bright-magenta: #D036D4;
     --bright-bred: #CB2A2A;
 
-    --sw84: #08080f;
-    --sw84: #241b2f;
-    --sw84: #171520;
-    --sw84: #1f212b;
-    --sw84: #232530;
-    --sw84: #262335;
-    --sw84: #2a2139;
-    --sw84: #34294f;
-    --sw84: #37294d;
-    --sw84: #444251;
-    --sw84: #b6b1b1;
-    --sw84: #ffffff;
-    --sw84: #206d4b;
-    --sw84: #09f7a0;
-    --sw84: #0beb99;
-    --sw84: #72f1b8;
-    --sw84: #03edf9;
-    --sw84: #2EE2FA;
-    --sw84: #2ee2fa;
-    --sw84: #36f9f6;
-    --sw84: #495495;
-    --sw84: #463465;
-    --sw84: #463564;
-    --sw84: #614D85;
-    --sw84: #7059AB;
-    --sw84: #848bbd;
-    --sw84: #9d8bca;
-    --sw84: #b893ce;
-    --sw84: #A148AB;
-    --sw84: #ff7edb;
-    --sw84: #880088;
-    --sw84: #fa2e46;
-    --sw84: #fe4450;
-    --sw84: #fede5d;
-    --sw84: #D18616;
-    --sw84: #ff8b39;
-    --sw84: #f97e72;
-    --sw84: #D50;
+    /*--sw84: #08080f;*/
+    /*--sw84: #241b2f;*/
+    /*--sw84: #171520;*/
+    /*--sw84: #1f212b;*/
+    /*--sw84: #232530;*/
+    /*--sw84: #262335;*/
+    /*--sw84: #2a2139;*/
+    /*--sw84: #34294f;*/
+    /*--sw84: #37294d;*/
+    /*--sw84: #444251;*/
+    /*--sw84: #b6b1b1;*/
+    /*--sw84: #ffffff;*/
+    /*--sw84: #206d4b;*/
+    /*--sw84: #09f7a0;*/
+    /*--sw84: #0beb99;*/
+    /*--sw84: #72f1b8;*/
+    /*--sw84: #03edf9;*/
+    /*--sw84: #2EE2FA;*/
+    /*--sw84: #2ee2fa;*/
+    /*--sw84: #36f9f6;*/
+    /*--sw84: #495495;*/
+    /*--sw84: #463465;*/
+    /*--sw84: #463564;*/
+    /*--sw84: #614D85;*/
+    /*--sw84: #7059AB;*/
+    /*--sw84: #848bbd;*/
+    /*--sw84: #9d8bca;*/
+    /*--sw84: #b893ce;*/
+    /*--sw84: #A148AB;*/
+    /*--sw84: #ff7edb;*/
+    /*--sw84: #880088;*/
+    /*--sw84: #fa2e46;*/
+    /*--sw84: #fe4450;*/
+    /*--sw84: #fede5d;*/
+    /*--sw84: #D18616;*/
+    /*--sw84: #ff8b39;*/
+    /*--sw84: #f97e72;*/
+    /*--sw84: #D50;*/
 
 }
 
