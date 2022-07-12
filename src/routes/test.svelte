@@ -42,11 +42,11 @@
   $: string = themes.string[theme]
   $: container = themes.container[theme]
 
-
-  let buttons = "inline-flex items-center w-48 px-4 py-2 border border-transparent text-sm text-white font-medium justify-center rounded-md shadow-sm bg-vim-neutral-600"
-  let indent = "py-0.5 px-8"
-  let indent2 = "py-0.5 px-16"
-  let indent3 = "py-0.5 px-24"
+  let indent = {
+    1: "py-0.5 px-8",
+    2: "py-0.5 px-16",
+    3: "py-0.5 px-24"
+  }
 </script>
 <style>
     p {
@@ -55,33 +55,23 @@
     }
 </style>
 <div class="flex flex-row-reverse p-12">
-  <div>
-    <div class="flex-column justify-center py-12">
-      <button class={buttons} on:click="{() => {theme = 'sw84'}}">synthwave84</button>
-      <button class={buttons} on:click="{() => {theme = 'sw85'}}">synthwave85</button>
-      <button class={buttons} on:click="{() => {theme = 'nord'}}">nord</button>
-    </div>
-    <div>
-      <ThemeSelector/>
-    </div>
-  </div>
-
+  <ThemeSelector/>
   <section class="{background} flex items-start justify-start min-h-screen max-w-4xl p-16 mx-auto rounded-md">
     <div class="px-4 py-5 sm:px-6">
       <p><span class={keyword}>import</span> <span class={string}>'dart:async'</span>;</p>
       <p><span class={keyword}>import</span> <span class={string}>'dart:io'</span>;</p>
       <br/>
       <p><span class={keyword}>class</span> <span class={type}>ApiProvider</span> &#123;</p>
-      <p class={indent}><span class={keyword}>final</span> <span class={type}>String</span><span
+      <p class={indent[1]}><span class={keyword}>final</span> <span class={type}>String</span><span
         class={keyword}>?</span>
         _baseUrl <span class={keyword}>=</span> dotenv.env<span class={container}>[</span>'SERVER'<span
           class={container}>]</span>;</p>
 
-      <p class={indent}><span class={type}>Future</span>&#60;<span class={type}>dynamic</span>&#62; <span
+      <p class={indent[1]}><span class={type}>Future</span>&#60;<span class={type}>dynamic</span>&#62; <span
         class={method}>get</span><span class={container}>(</span><span class={type}>String</span> url<span
         class={keyword}>,</span> params<span class={container}>)</span> <span class={keyword}>async</span> <span
         class={container}>&#123;</span></p>
-      <p class={indent2}><span class={keyword}>if</span> (_port <span class={keyword}>!= null</span>) iPort <span
+      <p class={indent[2]}><span class={keyword}>if</span> (_port <span class={keyword}>!= null</span>) iPort <span
         class={keyword}>=</span> <span class={type}>int</span><span class={keyword}>.</span><span class={method}>tryParse</span>(_port <span class={keyword}>as</span> <span class={type}>String</span>)<span class={keyword}>;</span>
       </p>
 
